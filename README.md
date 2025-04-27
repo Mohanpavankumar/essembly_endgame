@@ -1,12 +1,43 @@
-# React + Vite
+# Assembly: Endgame 🎮
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fun word-guessing game where you must **guess the programming word** before the world falls back into **Assembly**!  
+Built using **React**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- Guess the hidden word letter by letter
+- 8 wrong guesses allowed before game over
+- Celebratory confetti 🎉 on winning
+- Farewell messages for wrong guesses
+- Responsive design
+- Keyboard input interface
+- Accessibility-friendly (ARIA live regions)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+- **React** (useState, useEffect)
+- **clsx** for dynamic class management
+- **react-confetti** for celebration effects
+- **Custom Utilities** for random word selection and farewell text
+
+---
+
+## 🧩 How to Play
+
+1. A word is randomly selected.
+2. Click the letters to guess.
+3. You have **8 attempts** before you lose.
+4. Win and save the world from Assembly!
+
+---
+
+## 📦 Installation & Setup
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/Mohanpavankumar/Tenzies_Capstone_Project.git
+   cd Tenzies_Capstone_Project
